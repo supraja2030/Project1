@@ -1,5 +1,9 @@
 public class Vehicle {
-    void engine(){
-        System.out.println(" Engine is common in any vehicle ");
+    String engineType;
+    Vehicle(String engineType){
+        this.engineType = engineType;
+    }
+    void displayEngine(){
+        System.out.println(engineType + " is the main part in any vehicle" );
     }
 }
